@@ -44,9 +44,10 @@
 3. Add path in sytem env varibales
 4. check: cmd=> sqlite3 (ctrl+c)
 5. Create Database: sqlite3 test.db
-6. Create Table:  CREATE TABLE Employee(ID INT PRIMARY KEY NOT NULL, NAME TEXT NOT NULL, AGE INT NOT NULL, ADDRESS TEXT NOT NULL, SALARY REAL);
-7. INSERT INTO Employee (ID,NAME,AGE,ADDRESS,SALARY) VALUES (1, 'Guhan', 32, 'India', 20000.00);
+6. Create Table:  CREATE TABLE Employee(ID INTEGER PRIMARY KEY AUTOINCREMENT, NAME TEXT NOT NULL, AGE INT NOT NULL, ADDRESS TEXT NOT NULL, SALARY REAL);
+7. INSERT INTO Employee (NAME,AGE,ADDRESS,SALARY) VALUES ('Guhan', 32, 'India', 20000.00);
 8. SELECT * FROM Employee;
+
 
 
 
