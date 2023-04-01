@@ -35,3 +35,18 @@
 16. Check in your browser: http://127.0.0.1:5000/
 
 17. To Change IP Address: python -m flask run --host=172.16.3.64
+
+
+# Sqlit3 Installations
+
+1. Download Precompiled Binaries for Windows => https://www.sqlite.org/download.html
+2. After downloading the zip and extact in a new folder and place in C drive
+3. Add path in sytem env varibales
+4. check: cmd=> sqlite3 (ctrl+c)
+5. Create Database: sqlite3 test.db
+6. Create Table:  CREATE TABLE Employee(ID INT PRIMARY KEY NOT NULL, NAME TEXT NOT NULL, AGE INT NOT NULL, ADDRESS TEXT NOT NULL, SALARY REAL);
+7. INSERT INTO Employee (ID,NAME,AGE,ADDRESS,SALARY) VALUES (1, 'Guhan', 32, 'India', 20000.00);
+8. SELECT * FROM Employee;
+
+
+
